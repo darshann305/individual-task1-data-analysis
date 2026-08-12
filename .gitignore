@@ -1,0 +1,10 @@
+# Raw datasets (large files, download from source instead)
+creditcard.csv
+german_credit.csv
+german_credit_named.csv
+german.names
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

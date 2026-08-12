@@ -1,0 +1,90 @@
+{
+  "fraud_lr": {
+    "precision": 0.0671,
+    "recall": 0.8784,
+    "f1": 0.1247,
+    "roc_auc": 0.9681,
+    "pr_auc": 0.705,
+    "confusion_matrix": [
+      [
+        83488,
+        1807
+      ],
+      [
+        18,
+        130
+      ]
+    ]
+  },
+  "fraud_rf": {
+    "precision": 0.972,
+    "recall": 0.7027,
+    "f1": 0.8157,
+    "roc_auc": 0.9275,
+    "pr_auc": 0.8066,
+    "confusion_matrix": [
+      [
+        85292,
+        3
+      ],
+      [
+        44,
+        104
+      ]
+    ]
+  },
+  "fraud_rf_top_features": {
+    "V14": 0.1859,
+    "V4": 0.1208,
+    "V10": 0.117,
+    "V12": 0.1018,
+    "V17": 0.0879
+  },
+  "credit_lr": {
+    "precision": 0.5391,
+    "recall": 0.7667,
+    "f1": 0.633,
+    "roc_auc": 0.7993,
+    "pr_auc": 0.6349,
+    "confusion_matrix": [
+      [
+        151,
+        59
+      ],
+      [
+        21,
+        69
+      ]
+    ]
+  },
+  "credit_rf": {
+    "precision": 0.7568,
+    "recall": 0.3111,
+    "f1": 0.4409,
+    "roc_auc": 0.7965,
+    "pr_auc": 0.6444,
+    "confusion_matrix": [
+      [
+        201,
+        9
+      ],
+      [
+        62,
+        28
+      ]
+    ]
+  },
+  "credit_rf_top_features": {
+    "credit_amount": 0.1071,
+    "duration": 0.0891,
+    "age": 0.0863,
+    "checking_status_A14": 0.0853,
+    "installment_commitment": 0.0377
+  },
+  "meta": {
+    "fraud_n": 284807,
+    "fraud_fraud_rate": 0.00173,
+    "credit_n": 1000,
+    "credit_bad_rate": 0.3
+  }
+}
